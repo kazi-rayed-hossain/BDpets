@@ -1,0 +1,20 @@
+<form class="form-inline my-2 my-lg-0">
+                    
+
+                    <button class="signin_btn" type="submit">SIGN in</button>
+                    
+                </form>
+
+
+
+
+.signin_btn {
+    width: 150px;
+    height: 55px;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Ubuntu', sans-serif;
+}

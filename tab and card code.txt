@@ -1,0 +1,378 @@
+    <!--||||||||||||||||||||||||||||||||||||||||
+        |||        TAB & CARD  er kaj shuru  |||
+        |||||||||||||||||||||||||||||||||||||||| -->
+
+
+    <div class="container">
+
+
+        <div class="card text-center">
+            <div class="card-header ">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#dog" data-toggle="tab">Dog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cat" data-toggle="tab">Cat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#bird" data-toggle="tab">Bird</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#food" data-toggle="tab">food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#pet_accessories" data-toggle="tab">Pet Accessories</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="tab-content" id="tabs" style="margin-bottom: 15px;">
+            <div class="tab-pane active" id="dog">
+                <div class="card-deck row row-cols-1 row-cols-md-3">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/dog/dog 1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">German Shepherd</h5>
+                            <p class="card-text">The German Shepherd is a breed of medium to large-sized working dog that originated in Germany.</p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$449</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/dog/dog 3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Retriever</h5>
+                            <p class="card-text">The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties.</p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$325</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/dog/dog 4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Siberian Husky</h5>
+                            <p class="card-text">The Siberian Husky is a medium-sized working dog breed. The breed belongs to the Spitz genetic family. </p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$499</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane" id="cat">
+
+
+                <div class="card-deck">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/cat/cat 1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Persian cat</h5>
+                            <p class="card-text">The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle.</p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$199</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/cat/cat 2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">egyptian meow</h5>
+                            <p class="card-text">Egyptian Maus are a small- to medium-sized short-haired cat breed.</p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$229</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/cat/cat 3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyger</h5>
+                            <p class="card-text">The toyger is a breed of domestic cat, the result of breeding domestic shorthaired tabbies to make them resemble a "toy tiger", as its striped coat is reminiscent of the tiger's. </p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$399</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <div class="tab-pane" id="bird">
+
+
+                <div class="card-deck">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/bird/b 1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">cockatiel</h5>
+                            <p class="card-text">The cockatiel, also known as weiro bird, or quarrion, is a small parrot that is a member of its own branch of the cockatoo family endemic to Australia. </p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$89</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/bird/b 2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cockatoos</h5>
+                            <p class="card-text">A cockatoo is any of the 21 parrot species belonging to the family Cacatuidae, the only family in the superfamily Cacatuoidea. Along with the Psittacoidea and the Strigopoidea, they make up the order Psittaciformes.</p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$99</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/bird/b 3.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Owls</h5>
+                            <p class="card-text">Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons,
+                                and feathers adapted for silent flight.</p>
+                        </div>
+                        <div class="card-footer">
+                            <select class="custom-select ml-1">
+                                <option selected>Gender</option>
+                                <option value="1">male</option>
+                                <option value="1">female</option>
+                            </select>
+
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$499</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+            <div class="tab-pane" id="food">
+
+
+                <div class="card-deck">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/food/food.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Buffalo Wilderness</h5>
+                            <p class="card-text">Adult Dog Food - Grain Free, Natural. Beef & Chicken Grill Flavor are Available </p>
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$12</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/food/food 2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Purina Pro Plan</h5>
+                            <p class="card-text">Select Sensitive Skin & Stomach Adult Dog Food - Salmon & Rice</p>
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$25</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/food/food 3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedigree</h5>
+                            <p class="card-text">Pedigree Traditional Ground Dinner Canned Food dogs, with the great taste your dogs will really enjoy. Soy free. Available in a wide variety of flavors.</p>
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$15</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <div class="tab-pane" id="pet_accessories">
+
+
+                <div class="card-deck">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/pa/pa 1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Nylabone® Puppy Starter Kit Chew Dog Toys - 3 Pack</h5>
+                            <p class="card-text">Start your puppy out with healthy, approved chewing habits right from the beginning.</p>
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$5</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/pa/pa 2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">TRIXIE's Log Cabin Dog House</h5>
+                            <p class="card-text">Give your pet a place to escape the elements with TRIXIE's Log Cabin Dog House with peaked roof. </p>
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$50</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img class="card-img-top" src="img/pa/pa 3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Petmate® Complete Airline Travel Kit</h5>
+                            <p class="card-text">The Petmate Airline Travel Kit has everything you need to ensure safe travels for your pet. </p>
+                        </div>
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-success">
+                                <h5 class="mt-4">$25</h5>
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!--||||||||||||||||||||||||||||||||||||||||
+        |||        TAB & CARD  er kaj shuru  |||
+        |||||||||||||||||||||||||||||||||||||||| -->

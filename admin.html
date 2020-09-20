@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="js/bootstrap.min.js" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- https://fontawesome.com
+                icon er jonno -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+    <!-- google font poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <!-- script -->
+
+    <title>BDpets Admin</title>
+    <link rel="icon" type="image/png" href="img/logo/ti.png">
+
+</head>
+
+<body>
+
+
+    <header>
+
+
+
+
+
+
+        <!-- ||||||||||||||||||||||||||||||||||||||||
+             |||        navbar er kaj shuru       |||
+             |||||||||||||||||||||||||||||||||||||||| -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg p-3 mb-5 bg-white rounded">
+            <a class="navbar-brand" href="#">BDpets Admin Dashboard</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
+                  >
+                        </li>
+                        
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Admin dropdown
+                          </a>
+                        <div class="dropdown-menu shadow-lg p-3 mb-5 bg-white rounded" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="#">Product Order</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Messages</a>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+                <!-- cart er code -->
+
+                <ul class="navbar-nav mr-auto">
+                    <a data-toggle="modal" href="#myModal" class="btn btn-outline-success my-2 my-sm-2"><i class="fa fa-shopping-cart"></i> Upload Product</a>
+
+                    <div class="modal fade bd-example-modal-lg" id="myModal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="display-4" style="background-color: white; color :#191A1A;">Upload Product</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                </div>
+                                <div class="container"></div>
+                                <form>
+                                    <div class="form-row">
+
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4">Product Name</label>
+                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Product Name">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPassword4">Price</label>
+                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Enter your Price">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="dropdown">
+                                            <label for="inputPassword4">Catagory</label>
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Catagory
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item " href="#">Dog</a>
+                                                <a class="dropdown-item" href="#">Cat</a>
+                                                <a class="dropdown-item" href="#">Bird</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">food</a>
+                                                <a class="dropdown-item" href="#">Pet Accessories</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputAddress">Product Photo</label>
+                                        <input type="file" class="form-control" id="inputAddress" placeholder="Enter your Product description">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputAddress">Product description</label>
+                                        <textarea type="text" rows="10" class="form-control" id="inputAddress" placeholder="Enter your Product description"></textarea>
+                                    </div>
+
+
+
+                                </form>
+
+                                <div class="modal-footer">
+                                    <a href="#" data-dismiss="modal" class="btn">Close</a>
+                                    <button type="submit" class="btn btn-primary">Upload File</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </ul>
+
+                <!-- cart er code sesh -->
+
+
+
+
+                <form class="form-inline my-2 my-lg-0">
+
+                    <button type="button" class="btn btn-outline-success my-2 my-sm-2" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-fw fa-user"></i>
+                            Log-In
+                          </button>
+                </form>
+                <!-- sign in Button trigger modal -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Sign in</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="">
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormEmail2">Email address</label>
+                                        <input type="email" onkeyup="ValidatedEmail();" class="form-control" id="txtEmail" placeholder="email@example.com">
+                                        <span id="lblError" style="color: red"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtEmail">Password</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                        <label class="form-check-label" for="dropdownCheck2">
+                                            Remember me
+                                          </label>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-outline-success my-2 my-sm-2" data-toggle="modal" data-target="#exampleModalCenter_signup"><i class="fa fa-fw fa-user"></i>
+                            logout
+                          </button>
+                </form>
+
+
+
+
+
+            </div>
+
+        </nav>
+
+
+
+        <!--||||||||||||||||||||||||||||||||||||||||
+                |||         navbar er kaj shesh      |||
+                |||||||||||||||||||||||||||||||||||||||| -->
+
+
+
+
+
+
+    </header>
+
+    <section>
+        <div class="container">
+
+
+            <!-- First Half -->
+
+            <div class="col-md-12">
+
+
+                <h1>Order List</h1>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>German Shepherd</td>
+
+                            <td>
+                                <input type="button" value="accept" /> <input type="button" value="reject" /> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Golden Retriever</td>
+                            <td>
+                                <input type="button" value="accept" /> <input type="button" value="reject" /> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>Siberian Husky</td>
+                            <td>
+                                <input type="button" value="accept" /> <input type="button" value="reject" /> </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+            </div>
+
+            <!-- Second Half -->
+
+            <div class="col-md-12 ">
+
+                <h1>Messages</h1>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">name</th>
+                            <th scope="col">Message</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>hellooooooooooo</td>
+
+
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>hellooooooooooo</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>hellooooooooooo </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        function ValidatedEmail() {
+            console.log("hi");
+            var email = document.getElementById("txtEmail").value;
+            var lblError = document.getElementById("lblError");
+            lblError.innerHTML = "";
+            var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            if (!expr.test(email)) {
+                lblError.innerHTML = "Invalid email address.";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery first, 
+         then Popper.js, 
+        then Bootstrap JS -->
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

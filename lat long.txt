@@ -1,0 +1,15 @@
+23.794639, 90.414774
+
+
+<script type="text/javascript">
+        jQuery(function($) {
+            // Google Maps setup
+            var googlemap = new google.maps.Map(
+                document.getElementById('googlemap'), {
+                    center: new google.maps.LatLng(23.794639, 90.414774),
+                    zoom: 8,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+            );
+        });
+    </script>
